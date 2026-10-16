@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';import './globals.css';
+export const metadata:Metadata={metadataBase:new URL('https://slingverse.in'),title:'Slingverse | Digital Transformation & IT Solutions',description:'Custom software, websites, ERP, CRM, AI automation, mobile apps and cloud solutions by Slingverse.',openGraph:{title:'Slingverse | Your Vision. Our Technology.',description:'Digital solutions built around your business.',url:'https://slingverse.in',siteName:'Slingverse',type:'website'},twitter:{card:'summary_large_image'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
